@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <title>Motion Clinic</title>
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="assets/js/script.js" async></script>
+</head>
+
+
+<body onscroll="scrollFunc()">
+    <div class="overflow-hidden">
+
+
+<header>
+<!--Start of navbar-->
+    <nav id="navB" class="navbar navbar-expand-lg fixed-top"><!--Sets up navbar and breakpoint-->
+
+       
+
+        <button 
+        class="navbar-toggler bg-secondary mx-2" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu"
+        >   <!--Toggles hamburger menu using #navmenu to target-->
+        <span class="navbar-toggler-icon btn-secondary"></span>   <!--Burger Icon-->
+        </button>
+
+        <div class="collapse navbar-collapse my-2" id="navmenu"> <!--Nav and links-->
+            <ul class="row navbar-nav ms-auto gx-5">
+
+                <li class="col nav-item px-2 my-2">
+                    <button type="button" onclick="document.location='index.html'" class="btn btn-outline-secondary btn-sm"><a href="index.html" class="nav-link text-light fw-bold text-uppercase">Home</a></button> 
+             
+                </li>
+
+
+
+                <li class="col nav-item px-2 my-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm"><a href="services.html" class="nav-link text-light fw-bold text-uppercase">Services</a></button> 
+            
+                </li>
+
+                <li class="col nav-item px-2 my-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm"><a href="about.html" class="nav-link text-light fw-bold text-uppercase">About</a></button> 
+                 </li>
+
+                <li class="col nav-item px-2 my-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm me-5"><a href="contact.html" class="nav-link text-light fw-bold text-uppercase">Contact</a></button> 
+                </li>
+            </ul>
+        </div>
+ 
+    </nav>
+</header>
+<!-- END OF NAVBAR -->
+
+<main>
+          <!--Start of Hero-->
+
+<section class="masthead mast1img text-light d-flex p-5 text-center text-sm-start align-items-center vw-100 vh-85"><!--sets up section-->
+    <div class="container">
+      <div class="row d-sm-flex align-items-center justify-content-between"><!--flex starts at sml breakpoint, aligns content-->
+            
+            <div class="col text-start">
+                  <h1 class="fw-bold display-3 text-light">Contact</h1>
+                      <p class="fw-bold text-secondary fs-2">
+                          Ask how I can help you today.
+                      </p>
+
+                      <button id="bookwith" type="button" onclick="window.location = 'https://jane.app/'"class="btn btn-primary btn-lg border-secondary me-5"><a href="https://jane.app/" class="nav-link text-light fw-bold text-uppercase"><span>Book Online</span></a></button> 
+            </div>
+
+        </div>    
+    </div>
+
+    
+  </section>
+  
+
+    
+  
+  
+  <!--End hero-->
+
+
+
+        <!-- CONTACT SECTION -->
+<section class="bg-dark py-3">
+        <div class="container bg-light d-flex p-3 justify-content-center">
+
+
+            <div class="container row d-flex align-content-center">
+
+          
+                <p class="text-dark mb-0 h1 mt-3 mb-3">Contact Information</p>
+
+            </div>
+
+            
+
+
+        </div>
+
+
+        <section class="container bg-light d-flex mt-3 p-5 justify-content-center">
+
+
+            <div class="row d-flex align-content-center">
+
+                <h1 class="fs-2 p-0"><span class="text-secondary">Address:</span> 123 New St Town B.C</h1>
+                <h1 class="fs-2 p-0"><span class="text-secondary">Email:</span> info@example.com</h1>
+                <h1 class="fs-2 p-0"><span class="text-secondary">Phone:</span> 123 456 7890</h1>
+                <div class="px-0">
+               <button id="bookwith" type="button" class="col btn btn-primary btn-sm border-light"><a href='https://jane.app/' class="nav-link text-light fw-bold text-uppercase"><span>Book Online</span></a></button>
+</div>
+            </div>
+
+
+      
+        </div>
+
+        </section>
+
+
+
+    </section>
+        <!-- END OF CONTACT -->
+
+
+  </main>
+
+   <!-- Footer -->
+   <footer class="text-center bg-primary text-lg-start text-white">
+            
+
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="bg-primary text-center p-3">
+      © 2022 Copyright:
+      <span class="text-white"
+         >Whatever</span
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!--Bootstrap JS-->
+
+</body>
+</html>
